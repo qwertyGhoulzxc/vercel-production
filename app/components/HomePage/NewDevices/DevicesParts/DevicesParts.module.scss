@@ -1,0 +1,28 @@
+@import '../../../../../styles/variables';
+
+
+.DevicesPartContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.AddNew {
+  width: 306px;
+  height: 440px;
+  position: relative;
+
+  .circle {
+    position: absolute;
+    top: 0px;
+    left: 9px;
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 57px;
+    background: $lightYellow;
+    color: $lightBlueCl;
+  }
+
+}

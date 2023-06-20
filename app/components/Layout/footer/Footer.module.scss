@@ -1,0 +1,38 @@
+@import '../../../../styles/variables';
+
+.footerCl{
+    background-color: $darkBlueBg;
+
+    height: 186px;
+    margin-top: auto;
+    color: rgba(255, 255, 255, 0.7);
+
+    h2{
+        font-weight: 600;
+        font-size: 40px;
+        color: $whiteCl;
+    }
+}
+
+.firstCol{
+    font-weight: 400;
+font-size: 20px;
+    ul{
+        
+        padding-inline-start: 0;
+        margin-inline-start: 0;
+        li{
+            list-style: none;
+        }
+    }
+}
+.secondCol{
+    width: 288px;
+}
+
+.flex{
+    margin-top: 33px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}

@@ -1,0 +1,48 @@
+@import "styles/variables";
+
+.watchCardContainer {
+  &:hover {
+    cursor: pointer;
+  }
+
+  width: 282px;
+  height: 345px;
+  padding: 11px 15px;
+
+  img {
+    width: 175px;
+    margin: auto;
+  }
+
+  .properties {
+    margin-top: 22px;
+
+    p.category {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.5);
+    }
+
+    h2 {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 22px;
+    }
+
+    p.color {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      color: $grayCl;
+    }
+
+    p.price {
+      margin-top: 12px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 30px;
+    }
+  }
+
+}

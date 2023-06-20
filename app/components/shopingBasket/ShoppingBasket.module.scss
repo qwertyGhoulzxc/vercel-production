@@ -1,0 +1,28 @@
+@import "styles/variables";
+
+.text {
+  margin-top: 59px;
+  margin-bottom: 24px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.btn {
+  width: 1170px;
+  height: 100px;
+  color: $darkBlueBg;
+  display: grid;
+  place-items: center;
+  background: $goldCl;
+  border: none;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  margin-bottom: 50px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

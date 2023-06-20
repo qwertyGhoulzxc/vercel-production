@@ -1,0 +1,14 @@
+@import '../../../../../styles/variables';
+
+.comingSoonContainer{
+    width: 660px;
+    height:400px;
+    display: grid;
+    place-items: center;
+    h2{
+        color: $darkBlueBg;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+    }
+}

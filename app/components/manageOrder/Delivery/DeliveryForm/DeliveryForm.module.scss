@@ -1,0 +1,119 @@
+@import '../../../../../styles/variables';
+
+.deliveryOptionContainer {
+  user-select: none;
+
+  margin-left: 60px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  width: 402px;
+  height: 210px;
+  padding: 18px 5px 18px 18px;
+  border: 1px solid $darkBlueBg;
+  border-radius: 10px;
+}
+
+
+.circle {
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+  border: 3px solid rgba(1, 31, 127, 0.2);
+}
+
+.checkedArea {
+  background: $darkBlueBg;
+  border-radius: 50%;
+  width: 33px;
+  height: 33px;
+}
+
+.defaultArea {
+  width: 0;
+  height: 0;
+}
+
+.headerPart {
+  display: flex;
+  align-items: end;
+  margin-bottom: 30px;
+
+  h3 {
+    margin-left: 23px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+  }
+
+}
+
+.text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.fromContainer {
+  display: flex;
+}
+
+
+.submit {
+  width: 1200px;
+  text-align: center;
+  height: 90px;
+  background-color: $goldCl;
+  color: $darkBlueBg;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 85px;
+  margin-bottom: 75px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.buttons {
+  display: flex;
+
+  .edit {
+    width: 240px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    background: $goldCl;
+    color: $darkBlueBg;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+  }
+
+  .clear {
+    position: absolute;
+    bottom: 13px;
+    left: 270px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    width: 200px;
+    height: 60px;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid $darkBlueBg;
+    color: $darkBlueBg;
+  }
+
+}

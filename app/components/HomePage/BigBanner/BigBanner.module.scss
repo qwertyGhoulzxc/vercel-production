@@ -1,0 +1,28 @@
+@import '../../../../styles/variables';
+
+.bigBannerContainer {
+  &:hover {
+    cursor: pointer;
+  }
+
+  margin: 95px 0;
+  width: 1200px;
+  height: 220px;
+  padding: 18px 54px;
+  background: $lightBlueCl;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+
+  h2 {
+    width: 560px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+  }
+
+  svg {
+    font-size: 52px;
+  }
+}

@@ -1,0 +1,29 @@
+@import '../../../../../../styles/variables';
+
+.bannerContainer {
+  &:hover {
+    cursor: pointer;
+  }
+
+  width: 252px;
+  height: 440px;
+  background: $lightYellow;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+
+  div {
+    width: 191px;
+
+    h2 {
+      font-style: normal;
+      font-weight: 900;
+      font-size: 36px;
+    }
+
+    svg {
+      margin-top: 35px;
+      font-size: 32px;
+    }
+  }
+}

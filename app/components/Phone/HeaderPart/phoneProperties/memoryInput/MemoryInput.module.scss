@@ -1,0 +1,38 @@
+@import '../../../../../../styles/variables';
+.CheckedInput{
+    input[type="radio"]{
+        display: none;
+    }
+    label.checked {
+        background: $darkBlueBg;
+        color: white;
+        padding: 6px 11px;
+        border-radius: 5px;
+        margin-right: 10px;
+        margin-top: 5px;
+        user-select: none;
+        padding: 6px 11px;
+        display: inline-block;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+      }
+      
+      .default{
+        background: rgba(196, 196, 196, 0.2);
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        margin-right: 10px;
+        margin-top: 5px;
+        user-select: none;
+        padding: 6px 11px;
+        display: inline-block;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+      }
+}
+
+.MemoryInputContainer{
+    display: flex;
+}

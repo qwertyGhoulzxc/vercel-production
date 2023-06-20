@@ -1,0 +1,24 @@
+.AccesoriesContainer{
+    user-select: none;
+    display: flex;
+    align-items: center;
+    h2{
+        font-style: normal;
+font-weight: 500;
+font-size: 36px;
+        color: black;
+    }
+    svg{
+        margin-left: 10px;
+        font-size: 25px;
+        color:rgba(165, 165, 165, 0.7);
+    }
+}
+
+
+.raw{
+    width: 690px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

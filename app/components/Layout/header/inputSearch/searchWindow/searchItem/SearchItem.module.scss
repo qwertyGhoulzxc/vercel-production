@@ -1,0 +1,58 @@
+@import "styles/variables";
+
+.searchItemContainer {
+
+  height: 120px;
+  border-bottom: 4px solid $darkBlueBg;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+
+
+  &:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+
+
+  img {
+    height: 90px;
+    width: 90px;
+  }
+}
+
+.properties {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+.name {
+  font-size: 25px;
+}
+
+.options {
+
+}
+
+.price {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.discountPrice {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  text-decoration-line: line-through;
+
+  color: rgba(0, 0, 0, 0.5);
+}
+

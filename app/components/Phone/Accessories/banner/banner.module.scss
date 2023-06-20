@@ -1,0 +1,23 @@
+@import '../../../../../styles/variables';
+
+.banner{
+    user-select: none;
+    width: 124px;
+    height: 400px;
+    background-color:$darkBlueBg;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p{
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+    }
+    svg{
+        margin-top: 10px;
+        font-size: 21px;
+    }
+}

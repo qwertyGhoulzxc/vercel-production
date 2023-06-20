@@ -1,0 +1,29 @@
+@import '../../../../../styles//variables';
+
+.sliderContainer{
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    user-select: none;
+}
+
+.imgVariants{
+    display: flex;
+    align-items: center;
+    svg{
+        color:rgba(165, 165, 165, 0.7);
+        font-size: 30px;
+    }
+img{
+    border: 1px solid $soloPhoneCl;
+    margin: 3.5px;
+    width: 55px;
+height: 55px;
+}
+}
+
+.checkedImg{
+    width:310px;
+    heigth:310px
+}

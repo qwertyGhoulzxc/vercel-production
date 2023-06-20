@@ -1,0 +1,46 @@
+@import '../../../../../styles/variables';
+
+.container {
+  width: 260px;
+  height: 400px;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  .name {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: $grayCl;
+  }
+
+  img {
+    width: 260px;
+    height: 260px;
+  }
+}
+
+.description {
+  .line {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+
+    .arrow {
+      font-size: 32px;
+      color: $grayCl;
+    }
+
+    svg {
+      font-size: 37px;
+      color: $darkBlueBg;
+    }
+  }
+}

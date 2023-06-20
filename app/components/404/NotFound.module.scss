@@ -1,0 +1,32 @@
+@import '../../../styles/variables';
+
+
+.page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 326px);
+    
+    h2{
+        color: $lightBlueCl;
+        font-size: 60px;
+    }
+    p{
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+    a{
+        &::hover{
+            cursor: pointer;
+        }
+    }
+    button{
+        background-color: $lightBlueCl;
+        border: none;
+        border-radius: 10px;
+        color: $whiteCl;
+        width: 150px;
+        height: 47px;
+    }
+}

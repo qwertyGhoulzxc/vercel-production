@@ -1,0 +1,20 @@
+@import '../../../../../../styles/variables';
+
+.appleCategoriesContainer {
+  width: 486px;
+  height: 264px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .card {
+    width: 231px;
+    height: 120px;
+    display: grid;
+    place-items: center;
+    color: $lightBlueCl;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+  }
+}

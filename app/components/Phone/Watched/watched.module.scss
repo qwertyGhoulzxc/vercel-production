@@ -1,0 +1,27 @@
+@import "styles/variables";
+
+.watchedContainer {
+  width: 1200px;
+  height: 553px;
+  padding: 30px 74px 0 74px;
+  background: $lightBlueCl;
+  border-radius: 10px;
+  margin-bottom: 92px;
+
+  h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    color: white;
+  }
+
+  .watchedItems {
+    margin-top: 28px;
+
+    display: flex;
+    
+    align-items: center;
+    //justify-content: space-between;
+
+  }
+}

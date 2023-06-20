@@ -1,0 +1,121 @@
+@import "styles/variables";
+
+
+.form {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  padding: 13px;
+  margin-top: 50px;
+
+  .links {
+    margin: auto;
+    width: 300px;
+
+    a {
+      color: $lightBlueCl;
+    }
+  }
+
+  h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 31px;
+  }
+
+  input {
+    outline: none;
+    width: 874px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    height: 90px;
+    border-radius: 10px;
+    border: $darkBlueBg 1px solid;
+    margin-bottom: 39px;
+  }
+
+  .submit {
+    width: 1200px;
+    text-align: center;
+    height: 90px;
+    background-color: $goldCl;
+    color: $darkBlueBg;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 75px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .PasswordInput {
+    position: relative;
+
+    svg {
+      width: 30px;
+      position: absolute;
+      right: 10px;
+      top: 10px;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .Error {
+    margin-top: -24px;
+    color: red;
+    width: 250px;
+
+  }
+
+  .info {
+    margin: 39px 0 42px 0;
+    color: $grayCl;
+
+  }
+
+}
+
+.edit {
+  width: 240px;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  background: $goldCl;
+  color: $darkBlueBg;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.rel {
+  position: relative;
+}
+
+.clear {
+  position: absolute;
+  bottom: 13px;
+  left: 270px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  width: 200px;
+  height: 60px;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid $darkBlueBg;
+  color: $darkBlueBg;
+}
+

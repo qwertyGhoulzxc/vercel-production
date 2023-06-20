@@ -1,0 +1,95 @@
+@import '../../../../styles/variables';
+
+.form{
+    -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+    width: 400px;
+    border: 3px solid $darkBlueBg;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 13px;
+    margin-top: 50px;
+
+    .links{
+        margin: auto;
+        width: 300px;
+        a{
+            color: $lightBlueCl;
+        }
+    }
+
+    h2{
+        color: $darkBlueBg;
+        margin-bottom: 10px;
+    }
+
+    input{
+        outline: none;
+        width: 250px;
+        height: 47px;
+        font-size: 20px;
+        border-radius: 10px;
+        border: $darkBlueBg 2px solid;
+        margin-bottom: 24px;
+    }
+    button{
+        width: 120px;
+        text-align: center;
+        height: 47px;
+        background-color: $darkBlueBg;
+        color:$whiteCl;
+        font-size: 18px;
+        border:none;
+        border-radius: 10px;
+        margin-bottom:10px ;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    .PasswordInput{
+        position: relative;
+        svg{
+            width: 30px;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+    .Error{
+        margin-top: -24px;
+        color: red;
+        width: 250px;
+
+    }
+    .btnChooseWay{
+        background-color: transparent;
+        color: black;
+        font-size: 20px;
+        border-bottom-width: 5px;
+        border-bottom-style: solid;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+  
+ 
+
+}
+
+.content{
+    
+        display: grid;
+        align-items: center;
+        justify-content: center;
+      
+}
+.ChooseWay{
+    width: 400px;
+    height: 70px;
+}

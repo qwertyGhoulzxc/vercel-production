@@ -1,0 +1,61 @@
+@import '../../../../styles/variables';
+
+.banner {
+  user-select: none;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  height: 440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 252px;
+  background: $lightBlueCl;
+  border-radius: 5px;
+  padding: 0 28px;
+  color: white;
+
+  h2 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+  }
+
+  svg {
+    margin-top: 35px;
+    font-size: 32px;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.header {
+  user-select: none;
+  display: flex;
+  align-items: center;
+  width: 323px;
+  margin: 52px 0 34px 27px;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+  }
+
+  svg {
+    margin-left: 11px;
+    font-size: 29px;
+    color: rgba(0, 0, 0, 0.15);;
+  }
+}

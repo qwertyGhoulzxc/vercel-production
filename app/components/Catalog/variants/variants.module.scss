@@ -1,0 +1,44 @@
+@import '../../../../styles/variables';
+
+.variantsContainer{
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    .checkedInput{
+        input[type="radio"]{
+            display: none;
+        }
+        .checked{
+            display: flex;
+            align-items: center;
+            width: 481px;
+            height: 69px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            border: 1px solid $darkBlueBg;
+            border-radius: 6px;
+            color: $darkBlueBg;
+            margin-top: 6px;
+            text-align: center;
+            padding-left:36px ;
+        }
+
+        .default{
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+            padding-left:36px ;
+
+            p{
+
+            }
+            width: 481px;
+            height: 67px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            color: rgba(0, 0, 0, 0.75);
+        }
+    }
+}

@@ -1,0 +1,66 @@
+@import '../../../../../styles/variables';
+
+.card {
+  width: 306px;
+  height: 440px;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  div {
+    padding: 30px 68px;
+
+    img {
+      height: 217px;
+      width: 170px;
+    }
+  }
+
+  .text {
+    padding: 15px;
+
+    h2 {
+      font-weight: 600;
+      font-size: 24px;
+    }
+
+    p {
+      color: $grayCl;
+      font-weight: 400;
+      font-size: 16px;
+    }
+
+    .la {
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .priceProperty {
+        width: 140px;
+        padding: 0;
+        margin: 0;
+
+        .price {
+          font-weight: 600;
+          font-size: 24px;
+        }
+
+        .discountPrice {
+          text-decoration-line: line-through;
+          font-weight: 400;
+          font-size: 14px;
+          color: $grayCl;
+        }
+      }
+
+      .icon {
+        width: 32px;
+        font-size: 32px;
+      }
+
+    }
+  }
+}

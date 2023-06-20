@@ -1,0 +1,14 @@
+@import "styles/variables";
+
+.searchWindowContainer {
+  position: absolute;
+  background: white;
+  width: 100%;
+  border: 4px solid $grayCl;
+  border-radius: 10px;
+  z-index: 999;
+}
+
+.errorWindow {
+  padding: 20px;
+}
